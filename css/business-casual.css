@@ -54,8 +54,9 @@ hr {
 }
 
 .box {
+  max-width: 80%;
   background: rgba(0, 160, 0, 0.5);
-  margin: 30px 0px;
+  margin: 30px auto;
   /*background: #00A000;*/
   padding: 30px 15px;
 }
