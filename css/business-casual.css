@@ -8,7 +8,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
 }
@@ -31,13 +30,11 @@ hr {
 
 
 .navbar-brand {
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 900;
 }
 
 .navbar-nav {
-  text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
 }
@@ -67,7 +64,6 @@ hr {
 }
 
 .intro-text {
-  text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1.25em;
   font-weight: 400;
@@ -148,7 +144,6 @@ footer p {
   margin: 0;
   padding: 0 0 20px;
   font-size: 1.25em;
-  text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
   /*color: #fff;*/

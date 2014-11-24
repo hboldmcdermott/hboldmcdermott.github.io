@@ -10,10 +10,10 @@
     <title>Wedding Info</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"></link> 
 
     <!-- Add custom CSS here -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet"></link>
 </head>
 
 <body>
@@ -50,11 +50,9 @@
                             <li><a href="wedding.html#venue">Ceremoney & Reception</a></li>
                             <li><a href="wedding.html#hotel">Accomodations</a></li>
                             <li><a href="wedding.html#food">Restaurants</a></li>
-                            <li><a href="wedding.html#events">Things To Do</a></li>
                         </ul>
                     </li>
-                    <li><a href="registry.html">Registry</a></li>
-                    <li><a href="honeymoon.html">Honeymoon</a></li>
+                    <li><a href="honeymoon.html">Registry & Honeymoon</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -63,8 +61,11 @@
     </nav>
 
     <div class="container">
-        <iframe id="map" src="https://mapsengine.google.com/map/u/0/embed?mid=znAAM7bfxOdU.k1ThIwjSxrHE" margin="auto" width="100%" height="700" marginheight="0" marginwidth="0" scrolling="no"></iframe>
 
+        <!-- Map of the area -->
+        <iframe id="map" src="https://mapsengine.google.com/map/u/0/embed?mid=znAAM7bfxOdU.k1ThIwjSxrHE" margin="auto" width="80%" height="500" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+
+        <!-- Wedding Info -->
         <div class="row" id="venue">
             <div class="box">
                 <div class="col-lg-12">
@@ -72,17 +73,19 @@
                     <h2 class="intro-text text-center"><strong>Ceremoney & Reception</strong></h2>
                     <hr>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <img style="max-height: 400px;" class="img-responsive img-border-left" src="img/vineyard.jpg" alt="">
                 </div>
-                <div class="col-md-6">
-                    <p>Info about the vineyard</p>
-                    <p>Times / Schedule of Events</p>
+                <div class="col-md-8">
+                    <p>Our wedding ceremony and reception will be held at Morais Vineyard in Bealton, VA.  Please find address and directions located below.  The ceremony will begin at 4:30 PM with coctail hour to follow, and dinner being served at 6:00 PM.  A full schedule of events is listed below.</p>
+                    <h3 class="text-center">Schedule</h3>
+                    <h3 class="text-center">Directions</h3>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
 
+        <!-- Hotel Info -->
         <div class="row" id="hotel">
             <div class="box">
                 <div class="col-lg-12">
@@ -98,6 +101,7 @@
             </div>
         </div>
 
+        <!-- Restaurant List -->
         <div class="row" id="food">
             <div class="box">
                 <div class="col-lg-12">
@@ -108,21 +112,6 @@
                 </div>
                 <div class="col-md-6">
                     <p>Embed Zagat info on local restaurants here</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-        <div class="row" id="events">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center"><strong>Things To Do</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-md-6">
-                    <p>Local events happening day before the wedding</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
