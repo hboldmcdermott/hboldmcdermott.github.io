@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Wedding Info</title>
+    <title>Chris & Sidney 2015</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet"></link> 
@@ -20,7 +20,7 @@
 
     <div class="brand">
         <h2 class="brand-name-left">Sidney<br>Harbold</h2>
-        <img src="img/slide-1.jpg"</img>
+        <img src="img/focus.jpg"</img>
         <h2 class="brand-name-right">Christopher<br>McDermott</h2>
     </div>
     <div class="address-bar">5.15.15</div>
@@ -40,16 +40,16 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
                     <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">Wedding <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="wedding.html">Wedding Info</a></li>
                             <li class="divider"></li>
-                            <li><a href="wedding.html#map">Event Map</a></li>
-                            <li><a href="wedding.html#venue">Ceremoney & Reception</a></li>
+                            <li><a href="wedding.html#venue">Venue</a></li>
+                            <li><a href="wedding.html#sched">Ceremony Schedule</a></li>
                             <li><a href="wedding.html#hotel">Accomodations</a></li>
                             <li><a href="wedding.html#food">Restaurants</a></li>
+                            <li><a href="wedding.html#map">Event Map</a></li>
                         </ul>
                     </li>
                     <li><a href="honeymoon.html">Registry & Honeymoon</a></li>
@@ -62,24 +62,46 @@
 
     <div class="container">
 
-        <!-- Map of the area -->
-        <iframe id="map" src="https://mapsengine.google.com/map/u/0/embed?mid=znAAM7bfxOdU.k1ThIwjSxrHE" margin="auto" width="80%" height="500" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-
         <!-- Wedding Info -->
         <div class="row" id="venue">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center"><strong>Ceremoney & Reception</strong></h2>
+                    <h2 class="intro-text text-center"><strong>Wedding Venue</strong></h2>
                     <hr>
                 </div>
                 <div class="col-md-4">
-                    <img style="max-height: 400px;" class="img-responsive img-border-left" src="img/vineyard.jpg" alt="">
+                    <img style="min-height: 500px;" class="img-responsive img-border-left" src="img/vineyard.jpg" alt="">
                 </div>
                 <div class="col-md-8">
-                    <p>Our wedding ceremony and reception will be held at Morais Vineyard in Bealton, VA.  Please find address and directions located below.  The ceremony will begin at 4:30 PM with coctail hour to follow, and dinner being served at 6:00 PM.  A full schedule of events is listed below.</p>
-                    <h3 class="text-center">Schedule</h3>
-                    <h3 class="text-center">Directions</h3>
+                    <p>The wedding ceremony and reception will be held at Morais Vineyard in Bealton, VA. Please find directions for driving from the hotel to the vineyard below. We will also have a shuttle running between the hotel and vineyard.</p>
+                    <table style="margin: 25px auto;">
+                        <tr><td>3:45</td><td>Shuttle departs from Hampton Inn</td></tr>
+                        <tr><td>9:00</td><td>First shuttle departs from Morais Vineyard</td></tr>
+                        <tr><td>10:00</td><td>Final shuttle departs from Morais Vineyard</td></tr>
+                    </table>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d99715.70247538497!2d-77.85915304528159!3d38.64621984881496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e6!4m5!1s0x89b67cf8b6508be3%3A0xd278a80d82ceb8a7!2sHampton+Inn+Warrenton%2C+501+Blackwell+Rd%2C+Warrenton%2C+VA+20186%2C+United+States!3m2!1d38.726334!2d-77.78947099999999!4m5!1s0x89b6858e53cffd39%3A0xb82336818d532ffb!2sMorais+Vineyards+%26+Winery+Inc%2C+11409+Marsh+Road%2C+Bealeton%2C+VA+22712!3m2!1d38.567156!2d-77.751226!5e0!3m2!1sen!2sus!4v1423948101870" width="100%" height="300" frameborder="0" style="border: 0; margin: 0px auto;"></iframe>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row" id="sched">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Schedule</strong></h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12">
+                    <table style="margin: 0 auto;">
+                        <tr><td>4:00</td><td>Guests Arrival</td></tr>
+                        <tr><td>4:30</td><td>Ceremony</td></tr>
+                        <tr><td>5:00 - 6:00</td><td>Cocktail Hour</td></tr>
+                        <tr><td>6:30</td><td>Dinner Service Begins</td></tr>
+                        <tr><td>7:30</td><td>Toasts</td></tr>
+                        <tr><td>7:45</td><td>First Dance</td></tr>
+                        <tr><td>10:00</td><td>Reception Concludes</td></tr>
+                    </table>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -94,8 +116,23 @@
                     </h2>
                     <hr>
                 </div>
-                <div class="col-md-6">
-                    <p>Info about hotels & group name to make reservations under</p>
+                <div class="col-md-4">
+                    <p>Hampton Inn Warrenton<br>
+                    501 Blackwell Road, Warrenton, VA 20186</p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://www.google.com/maps/place/Hampton+Inn+Warrenton/@38.726334,-77.789471,17z/data=!3m1!4b1!4m2!3m1!1s0x89b67cf8b6508be3:0xd278a80d82ceb8a7" target="_blank"><img src="https://maps.googleapis.com/maps/api/staticmap?center=501+Backwell+Road,Warrenton,VA&zoom=13&size=200x150&maptype=roadmap&markers=color:blue%7C501+Backwell+Road,Warrenton,VA"></img></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <p>To Book:</p>
+                    <p>
+                        Call 1-800-Hampton or <a href="http://warrenton.hamptoninn.com">warrenton.hamptoninn.com</a><br>
+                        Group Code: HMW
+                    </p>
+                    <p>
+                        Rate: $129 plus tax per night for Thursday, May 14, 2015 and Friday, May 15, 2015 (Check-in at 3PM)<br>
+                        Cut-off Date: April 14, 2015 (Block will be released)
+                    </p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -116,6 +153,13 @@
                 <div class="clearfix"></div>
             </div>
         </div>
+
+        <!-- Map of the area -->
+        <!-- TODO - move this to somewhere reasonable -->
+        <!--
+        <iframe id="map" src="https://mapsengine.google.com/map/u/0/embed?mid=znAAM7bfxOdU.k1ThIwjSxrHE" margin="auto" width="80%" height="500" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+
+        -->
 
     </div>
     <!-- /.container -->

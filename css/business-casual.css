@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.6;
   color: #000;
 }
@@ -51,11 +51,11 @@ hr {
 }
 
 .box {
-  max-width: 80%;
+  max-width: 85%;
   background: rgba(0, 160, 0, 0.5);
   margin: 30px auto;
-  /*background: #00A000;*/
-  padding: 30px 15px;
+  /*padding: 30px 15px;*/
+  padding: 15px 15px 30px 15px;
 }
 
 .box>*{
@@ -197,6 +197,22 @@ footer p {
     color: #FFFFF0;
 }
 
+.navbar-nav li:focus,
+.navbar-nav>li>a:focus,
+.navbar-nav .dropdown-toggle:focus {
+    pointer: cursor;
+}
+
+#sched table td {
+    padding: 5px;
+}
+#sched table td:first-child,
+#venue table td:first-child {
+    text-align: center;
+}
+#sched table td:last-child,
+#venue table td:last-child {
+    padding-left: 25px;
 }
 
 @media screen and (min-width: 1200px) {
